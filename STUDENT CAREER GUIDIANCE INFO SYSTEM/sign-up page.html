@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <!-- Latest compiled and minified CSS & JS -->
+    <link rel="stylesheet" media="screen" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js">
+    </script>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Design%20styling.css" media="screen">
+    <title>SCGIS sign up</title>
+</head>
+<body>
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Student Career Guidiance Information System</a>
+        </div>
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="home%20page.html">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <!--/.nav-collapse -->
+    </div>
+</div>
+<div class="container" align="center" style="background-color: gray;margin :8%;">
+    <img src="students-success-guide.jpg"style="padding: 2%; height: 30%;">
+</div><br><br>
+    <div id="formdes" >
+        <form action="sign up details.php" method="POST" role="form" >
+            <fieldset>
+        	<legend>sign-up</legend>
+           <p><i> pls ensure you fill the form properly </i> </p>
+        	<div class="form-group">
+        		<label for="stdname"> name </label>
+        		<input type="text" class="form-control" name="stdname" id="stdname" required="*">
+                <label for="stdsurname"> surname </label>
+                <input type="text" class="form-control" name="stdsurname" id="stdsurname">
+                <label for="username"> username  </label>
+                <input type="text" class="form-control" name="username" id="username">
+                <label for="others"> others </label>
+                <input type="text" class="form-control" name="others" id="others">
+                <label for="age"> Age </label>
+                <input type="text" class="form-control" name="age" id="age">
+                <label for="school"> school </label>
+                <input type="text" class="form-control" name="school" id="school">
+                <label for="semail"> E-mail </label>
+                <input type="email" class="form-control" name="semail" id="semail" required="*">
+                <label for="sphone"> phone no </label>
+                <input type="tel" class="form-control" name="sphone" id="sphone"><br><br>
+                <label for="stdpass" > enter password </label>
+                <input type="password" id="stdpass" name="stdpass" required="*"> <br><br>
+                <label for="confstdpass"> Confirm password </label>
+                <input type="password" id="confstdpass" name="confstdpass"> <br>
+
+                <label for="subjects" > Choose your subject </label><br>
+                <select id="subjects" name="subject" >
+                            <option value="fct" name="state"> fct</option>
+                            <option value="Abia"name="state"> Abia </option>
+                            <option value="adamawa"name="state"> adamawa</option>
+                            <option value="Akwai-ibom"name="state"> Akwai-ibom</option>
+                            <option value="Anambra" name="state" > Anambra</option>
+                            <option value="Bauchi" name="state"> Bauchi</option>
+                            <option value="Borno" name="state"> Borno </option>
+                            <option value="Benue" name="state"> Benue</option>
+                            <option value="Bayelsa" name="state"> Bayelsa</option>
+                            <option value="kano" name="state">Kano </option>
+                        </select>
+
+                </div>
+                <label for="mostpref"> most preferred subject</label>
+                <input type="text" class="form-control" name="mostprefsubject" id="mostpref" >
+
+                <label for="spref">  least preferred subject</label>
+                <input type="text" class="form-control" name="leastprefsub" id="spref" ><br><br>
+
+                <button type="submit" class="btn btn-primary" name="submit_details">submit
+                </button>
+            </fieldset>
+</form>
+    </div>
+
+</body>
+<footer style="margin-top: 10%;">
+<div class="panel panel-default" align="center">
+    <div class="panel-body">
+        <a href="#">Home</a>
+    </div>
+    <div class="panel-footer">
+        <a href="#">About us</a>
+    </div>
+    <div class="panel-footer">
+        <a href="#">privacy</a>
+    </div>
+    <div class="panel-footer">
+        <a href="#">C 2017</a>
+    </div>
+</div></footer>
+
+</html>

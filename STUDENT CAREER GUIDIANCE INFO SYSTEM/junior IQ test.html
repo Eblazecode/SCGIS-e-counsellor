@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script rel="script" type="text/javascript" src="juniorquiz.js"></script>
+    <link rel="script" type="text/css" href="senior%20style.css">
+</head>
+<body>
+
+<h2 class="quizHeader">SOCIAL STUDIES </h2>
+
+<table style="width:583px">
+    <tr>
+        <td>
+            <div>
+                        <p class="question"> social studies studies</p>
+
+                        <ul>
+                            <input class="answer" type="radio" name="q1" value="1">
+                            <label id="correctString1">Only environment</label>
+                            <br>
+                            <input class="answer" type="radio" name="q1" value="0">
+                            <label>wrong answer</label>
+                            <br>
+                            <input class="answer" type="radio" name="q1" value="0">
+                            <label>Man and his physical environment</label>
+                            <br>
+                            <input class="answer" type="radio" name="q1" value="0">
+                            <label>Interaction between man and animals </label>
+                </ul>
+            </div>
+        </td>
+        <td>
+            <div>
+                <p class="question">Leadership Entails </p>
+
+                <ul>
+                    <input class="answer" type="radio" name="q2" value="0">
+                    <label>Guiding people for selfisgh agains</label>
+                    <br>
+                    <input class="answer" type="radio" name="q2" value="1">
+                    <label id="correctString2">Forcing people do what they do not want</label>
+                    <br>
+                    <input class="answer" type="radio" name="q2" value="0">
+                    <label>wrong answer</label>
+                    <br>
+                    <input class="answer" type="radio" name="q2" value="0">
+                    <label>Sometimes you force them but always allow them</label>
+                </ul>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <div>
+                <p class="question">civic right and responsibilities identifies</p>
+
+                <ul>
+                    <input class="answer" type="radio" name="q3" value="0">
+                    <label>Ctizens are always subject to slavery as long as they live</label>
+                    <br>
+                    <input class="answer" type="radio" name="q3" value="1">
+                    <label id="correctString3">should obey rules even till death </label>
+                    <br>
+                    <input class="answer" type="radio" name="q3" value="0">
+                    <label>wrong answer</label>
+                    <br>
+                    <input class="answer" type="radio" name="q3" value="0">
+                    <label>Government should provide people a fair opening for human rights</label>
+                </ul>
+            </div>
+        </td>
+        <td>
+            <div>
+                <p class="question">The following are type of citizenship except ?</p>
+
+                <ul>
+                    <input class="answer" type="radio" name="q4" value="0">
+                    <label>By naturalization</label>
+                    <br>
+                    <input class="answer" type="radio" name="q4" value="1">
+                    <label id="correctString4">By birth</label>
+                    <br>
+                    <input class="answer" type="radio" name="q4" value="0">
+                    <label> By certificate</label>
+                    <br>
+                    <input class="answer" type="radio" name="q4" value="0">
+                    <label>By smuggling in </label>
+                </ul>
+            </div>
+        </td>
+    </tr>
+</table>
+<br/>
+<div class="submitter">
+    <input class="quizSubmit" id="submitButton" onClick="submitQuiz()"
+           type="submit" value="Submit" />
+</div>
+
+<!--show only wrong answers on submit-->
+<div class="quizAnswers" id="correctAnswer1"></div>
+<div class="quizAnswers" id="correctAnswer2"></div>
+<div class="quizAnswers" id="correctAnswer3"></div>
+<div class="quizAnswers" id="correctAnswer4"></div>
+
+<!--show score upon submit-->
+<div>
+    <h2 class="quizScore" id="userScore"></h2>
+</div>
+
+
+</body>
+</html>
